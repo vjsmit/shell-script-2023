@@ -6,3 +6,6 @@
 
 1. Print
 2. Variables
+3. Hi 
+4. Hello
+5. Just testing
