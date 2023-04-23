@@ -14,3 +14,7 @@ echo Today Date is ${Date}
 
 echo Hello
 echo Script name = $0
+
+script=$(realpath "$0")
+
+echo realpath is ${script}
