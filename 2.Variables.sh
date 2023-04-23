@@ -8,6 +8,6 @@ echo name = ${name}
 
 #Date=23/04/2023
 
-Date=${date +%F}
+Date=$(date +%F)
 
 echo Today Date is ${Date}
