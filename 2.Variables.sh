@@ -3,5 +3,5 @@ name=Smit
 
 #Printing Variable
 
-echo $a
-echo $name
+echo a = $a
+echo name = $(name)
