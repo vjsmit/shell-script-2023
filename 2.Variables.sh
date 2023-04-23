@@ -16,5 +16,7 @@ echo Hello
 echo Script name = $0
 
 script=$(realpath "$0")
+scriptpath=($dirname "$0")
 
 echo realpath is ${script}
+echo scriptpath is ${scriptpath}
