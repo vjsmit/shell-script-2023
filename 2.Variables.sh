@@ -12,5 +12,5 @@ Date=$(date +%F)
 
 echo Today Date is ${Date}
 
-
+echo Hello
 echo Script name = $0
