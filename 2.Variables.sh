@@ -13,4 +13,4 @@ Date=$(date +%F)
 echo Today Date is ${Date}
 
 echo Hello
-Script name $0
+echo script name $0
