@@ -7,10 +7,10 @@ echo Hello World
 function_name
 
 func_name1() {
-1st arg is $1
-2nd arg is $2
-Total args are $*
-NO. of args $#
+echo 1st arg is $1
+echo 2nd arg is $2
+echo Total args are $*
+echo NO. of args $#
 
 }
 
