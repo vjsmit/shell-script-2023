@@ -5,3 +5,13 @@ echo Hello World
 }
 
 function_name
+
+func_name1() {
+1st arg is $1
+2nd arg is $2
+Total args are $*
+NO. of args $#
+
+}
+
+func_name1
