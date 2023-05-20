@@ -8,7 +8,7 @@ if [ -z "$input" ]; then
   exit
 fi
 
-percent= $(curl -s https://www.themoviedb.org/movie/920125-untitled-white-men-can-t-jump-reboot | grep user_score_chart | xargs -n1 | grep data-percent | awk -F = '{print $2}' | awk -F . '{print $1}')
+percent=$(curl -s https://www.themoviedb.org/movie/920125-untitled-white-men-can-t-jump-reboot | grep user_score_chart | xargs -n1 | grep data-percent | awk -F = '{print $2}' | awk -F . '{print $1}')
 
 echo percent - ${percent}
 
