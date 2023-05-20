@@ -10,7 +10,7 @@ fi
 
 percent=$(curl -s https://www.themoviedb.org/movie/${input}| grep user_score_chart | xargs -n1 | grep data-percent | awk -F = '{print $2}' | awk -F . '{print $1}')
 
-if [ -z "$percent"]; then
+if [ -z "$percent" ]; then
   echo movie name not correct
   exit
 fi
