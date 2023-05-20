@@ -12,6 +12,11 @@ percent=$(curl -s https://www.themoviedb.org/movie/${input}| grep user_score_cha
 
 echo percent - ${percent}
 
+if [ -z "$percent"]; then
+  echo movie name not correct
+  exit
+fi
+
 if  [ "$percent" -ge 70 ]; then
   echo Good
 else
