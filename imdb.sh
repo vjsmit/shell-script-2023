@@ -4,7 +4,7 @@
 
 input=$1
 if [ -z "$input" ]; then
-  echo Input Movie Name Missing
+  echo Movie name blank
   exit
 fi
 
